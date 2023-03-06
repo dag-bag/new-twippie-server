@@ -1,4 +1,20 @@
 module.exports = ({ env }) => ({
+  "strapi-paypal": {
+    enabled: true,
+    config: {
+      paypalSandBoxUrl:
+        env("PAYPAL_SANDBOX_API_URL") || "https://api-m.sandbox.paypal.com",
+      paypalLiveUrl: env("PAYPAL_LIVE_API_URL") || "https://api-m.paypal.com",
+    },
+  },
+  sitemap: {
+    enabled: true,
+    config: {
+      autoGenerate: true,
+      allowedFields: ["id", "uid"],
+      excludedTypes: [],
+    },
+  },
   seo: {
     enabled: true,
   },
