@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_works",
+  "info": {
+    "displayName": "work"
+  },
+  "options": {},
+  "attributes": {
+    "job_title": {
+      "type": "text"
+    },
+    "company_name": {
+      "type": "text"
+    },
+    "start_date": {
+      "type": "date"
+    }
+  }
+}

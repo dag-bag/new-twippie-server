@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "caption": {
+      "type": "text"
+    },
+    "content": {
+      "type": "json"
+    },
+    "shares": {
+      "type": "integer"
+    },
+    "boosted_post": {
+      "type": "boolean"
+    },
+    "mentions": {
+      "type": "json"
+    },
+    "hashtags": {
+      "displayName": "hashtags",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hashtags"
+    },
+    "likes": {
+      "displayName": "likes",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.likes"
+    },
+    "activity_feeling": {
+      "displayName": "Activiy_Feelings",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.activiy-feelings"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_activiy_feelings",
+  "info": {
+    "displayName": "Activiy_Feelings"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "blessed",
+        "happy",
+        "loved",
+        "sad",
+        "lovely",
+        "excited",
+        "thankful",
+        "celebrating",
+        "watching",
+        "eating",
+        "drinking",
+        "travelling to"
+      ]
+    }
+  }
+}

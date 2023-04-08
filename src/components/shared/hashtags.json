@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_hashtags",
+  "info": {
+    "displayName": "hashtags"
+  },
+  "options": {},
+  "attributes": {
+    "hashtag": {
+      "type": "string"
+    }
+  }
+}

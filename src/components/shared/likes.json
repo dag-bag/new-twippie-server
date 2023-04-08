@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_likes",
+  "info": {
+    "displayName": "likes"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "like",
+        "love",
+        "funny",
+        "brain"
+      ]
+    },
+    "user_id": {
+      "type": "integer"
+    }
+  }
+}
