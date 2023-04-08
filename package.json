@@ -10,13 +10,14 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-i18n": "4.9.0",
     "@strapi/plugin-seo": "^1.8.0",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/provider-upload-cloudinary": "4.9.0",
+    "@strapi/strapi": "4.9.0",
     "pg": "^8.9.0",
     "strapi-paypal": "^1.0.4",
+    "strapi-plugin-comments": "^2.2.9",
     "strapi-plugin-import-export-entries": "^1.18.0",
     "strapi-plugin-sitemap": "^2.0.9"
   },
