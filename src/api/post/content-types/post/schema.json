@@ -44,9 +44,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.activiy-feelings"
-    },
-    "professional_qualifications": {
-      "type": "json"
     }
   }
 }

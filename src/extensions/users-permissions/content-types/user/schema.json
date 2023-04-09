@@ -98,6 +98,9 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.work"
+    },
+    "professional_qualifications": {
+      "type": "json"
     }
   }
 }
