@@ -101,6 +101,9 @@
     },
     "professional_qualifications": {
       "type": "json"
+    },
+    "alchoholic_interests": {
+      "type": "json"
     }
   }
 }
