@@ -104,6 +104,12 @@
     },
     "alchoholic_interests": {
       "type": "json"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "user"
     }
   }
 }

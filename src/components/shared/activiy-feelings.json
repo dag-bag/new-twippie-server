@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_activiy_feelings",
   "info": {
-    "displayName": "Activiy_Feelings"
+    "displayName": "Activiy_Feelings",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,7 @@
         "blessed",
         "happy",
         "loved",
+        "none",
         "sad",
         "lovely",
         "excited",
