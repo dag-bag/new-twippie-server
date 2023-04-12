@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "singularName": "report",
+    "pluralName": "reports",
+    "displayName": "Report",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "report_type": {
+      "type": "enumeration",
+      "enum": [
+        "USER",
+        "POST"
+      ]
+    },
+    "reporting_user_id": {
+      "type": "integer"
+    },
+    "report_reason": {
+      "type": "text"
+    },
+    "report_description": {
+      "type": "text"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "to_review",
+        "resolved"
+      ],
+      "default": "to_review"
+    },
+    "item_id": {
+      "type": "integer"
+    }
+  }
+}
