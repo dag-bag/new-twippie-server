@@ -65,6 +65,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.views"
+    },
+    "createdAtPost": {
+      "type": "text"
     }
   }
 }
