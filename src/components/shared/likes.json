@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_likes",
   "info": {
-    "displayName": "likes"
+    "displayName": "likes",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,11 @@
         "like",
         "love",
         "funny",
-        "brain"
+        "angry",
+        "haha",
+        "sad",
+        "wow",
+        "yah"
       ]
     },
     "user_id": {

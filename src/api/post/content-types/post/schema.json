@@ -50,6 +50,15 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "posts"
+    },
+    "audience": {
+      "type": "enumeration",
+      "enum": [
+        "private",
+        "public",
+        "friends"
+      ],
+      "default": "public"
     }
   }
 }
