@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_views",
+  "info": {
+    "displayName": "Views"
+  },
+  "options": {},
+  "attributes": {
+    "user_id": {
+      "type": "integer"
+    }
+  }
+}

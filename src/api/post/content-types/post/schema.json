@@ -59,6 +59,12 @@
         "friends"
       ],
       "default": "public"
+    },
+    "views": {
+      "displayName": "Views",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.views"
     }
   }
 }
