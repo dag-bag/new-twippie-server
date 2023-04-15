@@ -38,6 +38,12 @@
     },
     "item_id": {
       "type": "integer"
+    },
+    "comment": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::comment.comment",
+      "inversedBy": "reports"
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_authors",
+  "info": {
+    "displayName": "Author",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "user_id": {
+      "type": "integer",
+      "required": true
+    },
+    "avatar": {
+      "type": "text",
+      "required": false
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

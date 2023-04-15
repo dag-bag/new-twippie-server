@@ -8,16 +8,7 @@
   "attributes": {
     "type": {
       "type": "enumeration",
-      "enum": [
-        "like",
-        "love",
-        "funny",
-        "angry",
-        "haha",
-        "sad",
-        "wow",
-        "yay"
-      ]
+      "enum": ["like", "love", "funny", "angry", "haha", "sad", "wow", "yay"]
     },
     "user_id": {
       "type": "integer"

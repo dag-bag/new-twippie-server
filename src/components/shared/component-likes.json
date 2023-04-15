@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_component_likes",
+  "info": {
+    "displayName": "Component Likes"
+  },
+  "options": {},
+  "attributes": {
+    "user_id": {
+      "type": "integer"
+    }
+  }
+}

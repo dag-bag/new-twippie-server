@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_sub_comments",
+  "info": {
+    "displayName": "Sub Comment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "ahuthor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.author"
+    },
+    "blocked": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

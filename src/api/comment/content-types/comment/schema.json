@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "Comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "author": {
+      "displayName": "Author",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.author",
+      "required": true
+    },
+    "blocked": {
+      "type": "boolean"
+    },
+    "sub_comments": {
+      "displayName": "Sub Comment",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sub-comment"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::post.post",
+      "inversedBy": "comments"
+    },
+    "reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::report.report",
+      "mappedBy": "comment"
+    },
+    "likes": {
+      "displayName": "Component Likes",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.component-likes"
+    }
+  }
+}
