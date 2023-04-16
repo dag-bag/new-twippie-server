@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gdpr_faqs",
+  "info": {
+    "singularName": "gdpr-faq",
+    "pluralName": "gdpr-faqs",
+    "displayName": "GDPR FAQ"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "request": {
+      "type": "enumeration",
+      "enum": [
+        "Right to be forgotten - Deletion of your data (art. 17 - GDPR)",
+        "Right to data portability - Request your data (art. 20 - GDPR)",
+        "Right to rectification - Rectification of your data (art. 16 - GDPR)",
+        "Right of access - Request for verification of whether data processing is taking place (art. 15 - GDPR)",
+        "Objection to data sharing – CCPA"
+      ]
+    },
+    "mobile": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
