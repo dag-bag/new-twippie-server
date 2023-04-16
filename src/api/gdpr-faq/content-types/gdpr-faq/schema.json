@@ -4,7 +4,8 @@
   "info": {
     "singularName": "gdpr-faq",
     "pluralName": "gdpr-faqs",
-    "displayName": "GDPR FAQ"
+    "displayName": "GDPR FAQ",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,18 +14,18 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "lastname": {
       "type": "string"
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": false
     },
     "message": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "request": {
       "type": "enumeration",
@@ -38,7 +39,7 @@
     },
     "mobile": {
       "type": "integer",
-      "required": true
+      "required": false
     }
   }
 }
