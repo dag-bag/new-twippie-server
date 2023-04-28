@@ -74,6 +74,17 @@
       "relation": "oneToMany",
       "target": "api::comment.comment",
       "mappedBy": "post"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Wines",
+        "Beers",
+        "Spirits",
+        "Sake",
+        "News & Events",
+        "Misc"
+      ]
     }
   }
 }
