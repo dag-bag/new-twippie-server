@@ -113,6 +113,18 @@
     },
     "banner": {
       "type": "text"
+    },
+    "followings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::following.following",
+      "mappedBy": "user"
+    },
+    "follower": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::follower.follower",
+      "inversedBy": "user"
     }
   }
 }

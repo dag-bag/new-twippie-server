@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups",
+  "info": {
+    "singularName": "group",
+    "pluralName": "groups",
+    "displayName": "Group",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "url": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "public",
+        "private"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Wines",
+        "Beers",
+        "Spirits",
+        "Sake",
+        "News & Events",
+        "Misc"
+      ]
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "group"
+    },
+    "banner": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "members": {
+      "displayName": "member",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.member"
+    },
+    "admin": {
+      "type": "integer"
+    }
+  }
+}

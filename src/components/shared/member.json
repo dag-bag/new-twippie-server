@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_members",
+  "info": {
+    "displayName": "member"
+  },
+  "options": {},
+  "attributes": {
+    "user_id": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "accepted",
+        "pending"
+      ]
+    }
+  }
+}

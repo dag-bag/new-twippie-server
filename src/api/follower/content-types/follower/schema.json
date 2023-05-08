@@ -4,18 +4,25 @@
   "info": {
     "singularName": "follower",
     "pluralName": "followers",
-    "displayName": "follower"
+    "displayName": "follower",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "follower": {
-      "type": "integer"
+    "user": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "follower"
     },
-    "following": {
-      "type": "integer"
+    "followings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::following.following",
+      "inversedBy": "followers"
     }
   }
 }
